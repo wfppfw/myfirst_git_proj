@@ -1,0 +1,43 @@
+
+ <view class="backg">
+
+<image src="/images/sousou2.png" class="search_sousuo" bindtap='tupian'></image>
+
+</view> 
+
+
+
+<swiper class="lunbo"  indicator-dots='{{true}}' autoplay='ture' circular='ture' interval='5000'>
+
+<swiper-item class='buju' wx:for="{{Hand}}"  wx:key="key" wx:for-item="item" >
+<view class="container card">
+
+
+  <view class='picture'>
+      <image src="{{item.ImagesAdress}}" class="picture"></image>
+  </view >
+
+<view >
+    <view class="name" bindtap="dianji" data-my-suiji="{{item.WordName}}">
+      {{item.WordName}}
+    </view>
+    <view class="meaning">
+      {{item.WordMeaning}} 
+    </view>
+  </view> 
+
+   
+  </view>
+</swiper-item>
+
+</swiper>
+
+
+
+ 
+
+
+
+  
+
+

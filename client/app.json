@@ -1,0 +1,47 @@
+{
+  "pages": [
+   
+    "pages/firstP/firstP",
+    "pages/secondP/secondP",
+    "pages/thirdP/thirdP",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/sousuo/sousuo",
+    "pages/detail/detail",
+    "pages/opinoin/opinoin",
+    "pages/about/about",
+    "pages/detail2/detail2",
+    "pages/about2/about2",
+    "pages/detail3/detail3"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "手语帮手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/firstP/firstP",
+        "text": "搜索",
+        "iconPath": "images/found.png",
+        "selectedIconPath": "images/found1.png"
+      },
+      {
+        "pagePath": "pages/secondP/secondP",
+        "text": "词典",
+        "iconPath": "images/tab_mystudy1.png",
+        "selectedIconPath": "images/tab_mystudy2.png"
+      },
+      {
+        "pagePath": "pages/thirdP/thirdP",
+        "text": "me",
+        "iconPath": "images/ME.png",
+        "selectedIconPath": "images/ME1.png"
+      }
+    ]
+  }
+}

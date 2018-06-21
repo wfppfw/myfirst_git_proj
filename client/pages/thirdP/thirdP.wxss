@@ -1,0 +1,77 @@
+
+
+
+page{
+  background-color: rgb(250, 250, 250)
+}
+
+
+.headimages{
+  position: absolute;
+  top:80rpx;
+  border-radius:100rpx;
+}
+.head{
+  display: flex;
+  margin-top: 50rpx;
+  align-items: center;
+  flex-direction: column;
+ justify-content: space-around;
+ 
+  
+}
+ .userinfo-avatar {  
+  width: 160rpx;  
+  height: 160rpx;  
+  border-radius: 50%;  
+  border: 5rpx solid #fff;
+  
+}   
+ .anniu{
+  
+   width: 160rpx;  
+  height: 160rpx;  
+  margin: 20rpx;  
+  line-height:160rpx;
+   border-radius: 50%;  
+} 
+.yijian{
+  height:100rpx;
+  width:100rpx;
+  margin-left: 40rpx;
+  margin-top:10rpx;
+  
+}
+.yijian1{
+  height:85rpx;
+  width:85rpx;
+  margin-left: 45rpx;
+  margin-top:10rpx;
+
+}
+.yi{
+  height:120rpx;
+  background-color: #fff;
+  font-size: 80%;
+  margin-top: 20rpx;
+ 
+}
+
+.text_yijian1{
+  position: relative;
+  top:-40rpx;
+  left:50rpx;
+  font-size: 100%;
+  
+}
+
+.text_yijian2{
+  position: relative;
+  top:-40rpx;
+  left:40rpx;
+  font-size: 100%;
+  
+}
+ .text_k{
+ font-size: 80%;
+} 

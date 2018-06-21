@@ -1,0 +1,121 @@
+/* pages/sousuo/sousuo.wxss */
+.search_frame{
+    display:inline-block;
+    position:absolute;
+    left:20rpx;
+    background-color: rgb(243,243,243);
+    height:100rpx;
+    width:80%;
+
+}
+.return{
+  height:170rpx;
+  width:100%;
+  outline-width:0rpx;
+  vertical-align:top;
+}
+.button_s{
+  height:100rpx;
+  color:#f40;
+  outline:none;
+  border-width:orpx;
+  border-radius:0rpx;
+  background-color:rgb(243,243,243);
+  position:absolute;
+  right:20rpx;
+  border:5rpx solid rgb(243,243,243);
+}
+button::after {
+  border: none;
+    border-radius: 0;
+}
+button{
+  border: none;
+    border-radius: 0;
+}
+
+.clr{
+  background-color: rgb(243,243,243);
+}
+.jj{
+  position:absolute;
+   top:300rpx; 
+  left:8%;
+  font-size:80%;
+}
+.ziti{
+  color: rgb(211,211,211);
+}
+.history{
+  background-color: rgb(249,102,80);
+  padding-left:45rpx;
+  padding-right: 45rpx;
+  color: white;
+  position:relative;
+  top:400rpx;
+  text-align: center;
+  height:90rpx;
+  vertical-align: middle;
+  line-height: 90rpx;
+  font-size: 110%;
+  border-radius:100rpx 100rpx 100rpx 100rpx;
+}
+.bancircle{
+  border-radius:100rpx 100rpx 100rpx 100rpx;
+  background-color: red;
+}
+.his{
+  background-color: rgb(249,102,80);
+  text-align: center;
+  height:90rpx;
+ 
+  line-height: 90rpx;
+  font-size: 110%;
+  border-radius:100rpx 100rpx 100rpx 100rpx;
+  position: relative;
+  float:left;
+  word-break: break-all;
+  word-wrap:break-word;
+}
+.first-history{
+  position: absolute;
+  top:350rpx;
+}
+.second-history{
+  position: relative;
+  top:350rpx;
+}
+.jiaonan{
+  background-color: #f40;
+  padding:10rpx 10rpx 10rpx 10rpx;
+  border-radius:200rpx;
+  display:table;
+  float: left;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom:10rpx;
+  color: white;
+}
+.wenben{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  display: flex;
+  
+}
+.buju{
+  position: relative;
+  top:180rpx;
+
+}
+.laji{
+  position: absolute;
+  bottom:30rpx;
+}
+.lajitu{
+  position: absolute;
+  left:325rpx;
+  bottom:30rpx;
+  height: 110rpx;
+  width: 100rpx;
+}

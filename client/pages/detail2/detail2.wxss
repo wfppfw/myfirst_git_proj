@@ -1,0 +1,101 @@
+/* pages/detail2/detail2.wxss */
+/* pages/third/third.wxss */
+.loading{
+  position: absolute;
+  top:280rpx;
+  left:65rpx;
+}
+page{
+  background-color: rgb(250, 250, 250)
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.buju{
+  display:flex;
+  margin-top:20rpx;
+}
+.picture{
+  height: 250rpx;
+width:250rpx;
+}
+.name{
+  text-indent:0.5em;
+  font-size:120%;
+  height:60rpx;
+  width:500rpx;
+  
+}
+.meaning{
+  color:green;
+  text-indent:1em;
+  height:190rpx;
+  width:500rpx;
+  font-size: 80%;
+ 
+}
+.yan{
+  background-color: #fff;
+}
+
+.search_frame{
+    z-index: 2;
+    display:inline-block;
+    position:fixed;
+    left:35rpx;
+    top:0rpx;
+    background-color: rgb(254,254,254);
+    height:100rpx;
+    width:90%;
+
+}
+.outside{
+   border-bottom: 1rpx solid bisque;
+  z-index: 1;
+  position: fixed;
+ 
+  height: 100rpx;
+  width: 100%;
+  background-color: #fff;
+  
+}
+.hua{
+  position: relative;
+  top:100rpx;
+}
+.ziti{
+  color: rgb(211,211,211);
+}
+.hezi{
+  display: flex;
+}
+.xxx{
+  z-index: 2;
+  position: fixed;
+  right: 110rpx;
+  height: 100rpx;
+  width: 100rpx;
+  background-color: #fff;
+  
+  
+}
+.search{
+  z-index: 2;
+  position: fixed;
+  right: 35rpx;
+  height: 100rpx;
+  width: 100rpx;
+  background-color: #fff;
+  
+  
+}
+.xx{
+  
+  margin-top: 28rpx;
+}
+.search_xx{
+  margin-top: 15rpx;
+  
+}

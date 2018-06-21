@@ -1,0 +1,9 @@
+
+ <view class="xiangqing">
+<view class="picture"><image src="http://shouyu.z12345.com/{{Images}}"></image></view>
+<view class="name"><text>{{Name}}</text></view>
+<view class="meaning"><text>{{Meaning}}</text></view>
+</view> 
+
+
+

@@ -1,0 +1,41 @@
+
+   page{
+  background-color: rgb(252,252,252)
+}
+.fir_line{
+  font-size: 90%;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+  margin-bottom: 20rpx;
+}
+
+.input_k{
+  width: 100%;
+  margin-top:0rpx;
+  background-color: #fff;
+  height: 200rpx;
+  font-size:70%;
+}
+.iii{
+  margin-top: 20rpx;
+  color:rgb(200,200,200);
+  font-size:100%;
+}   
+.liukong{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}  
+.bai{
+  background-color: #fff;
+}
+.bai1{
+  height:20rpx;
+}
+.tijiao{
+  margin-top: 40rpx;
+  width:80%;
+  border-radius:10rpx;
+  background-color: #d81e06;
+  color: #fff;
+}

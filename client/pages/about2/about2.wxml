@@ -1,0 +1,17 @@
+<!--pages/about2/about2.wxml-->
+
+<view class="tou">
+  <image class="rubberBand" src='/images/zi.png'></image>
+  </view>
+  <!-- 参加第一届全国高校计算机高校比赛--微信小程序应用开发比赛\n
+  我们重零开始，舍友青协部门的有个教手语的部门，挺清闲的，为了更好的志愿者们教学手语，我们决定做个小程序，手语帮手\n --> <view class="xin">虽然暂时没有什么功能，数据也很少，UI也不好看。但是我们会一直完善的</view> 
+
+
+
+
+    <view ><image class="picture" src='http://img.ui.cn/data/file/7/6/5/1784567.gif?imageMogr2/auto-orient/strip/thumbnail/!748%3E/'></image></view>  
+
+
+
+
+   <view wx:if="{{pic}}" class="support"  bindtap='support' data-src="{{pic}}" ><text>支持我们</text></view>

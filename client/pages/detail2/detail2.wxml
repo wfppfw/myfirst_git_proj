@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <view class="outside">
+ <input class="search_frame" type="text"  placeholder="今天想搜点啥？" placeholder-class='ziti' value="{{inputValue}}"  bindinput='searchInputValue1'></input> 
+   </view>  
+
+
+
+<view class="xxx"  bindtap="clearInput">
+<icon type="clear" class="xx" size="18"></icon> 
+</view>
+
+
+<view class="search" bindtap="showInput">
+<icon type="search" size="30" class="search_xx"></icon> 
+</view>
+
+
+
+
+
+
+ <view wx:if="{{Istrue}}"><image class="loading" src='/images/loading.gif'></image>  
+  </view>   
+
+
+  
+<view wx:else>
+<view>
+
+
+
+
+<view>
+<scroll-view scroll-y class="hua">
+<view class='buju' wx:for="{{shouyu}}"  wx:key="key" wx:for-item="item" >
+  <view class='picture'  bindtap="detail3"  data-my-user="{{item}}">
+       <image src="http://shouyu.z12345.com/{{item.adress}}" class="picture"></image> 
+  </view>
+  <view  bindtap="detail3"  data-my-user="{{item}}" class="yan">
+    <view class="name">
+      {{item.name}}
+    </view>
+    <view class="meaning">
+      {{item.meaning}} 
+    </view>
+  </view>
+</view>
+</scroll-view>
+</view>
+</view>
+</view> 
+
+
+
+
+ 

@@ -1,0 +1,122 @@
+<!--pages/secondP/secondP.wxml-->
+ <!-- <view wx:if="Istrue"><image class="loading" src='http://img.ui.cn/data/file/7/4/3/301347.gif?imageMogr2/auto-orient/strip'></image>  </view>  -->
+
+
+
+<view >
+<scroll-view scroll-y>
+<view class="zhongjian">
+    <text class="wenben">分类</text>
+  </view>
+  <view class="content">
+   <view class="itme1" bindtap="XianQing" data-word-name="0"><image src="http://www.taopic.com/uploads/allimg/140817/234925-140QH2312694.jpg"
+  class="zhaopian"></image>字母</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="1"><image src="http://img.zcool.cn/community/01f45e554353340000019ae98b9e97.jpg@1280w_1l_2o_100sh.jpg"
+  class="zhaopian"></image>称谓</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="2"><image src="http://s9.rr.itc.cn/r/wapChange/20172_7_22/a2sqcd5612185472619.jpeg" class="zhaopian"></image>职业</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="3"><image src="http://www.taopic.com/uploads/allimg/140622/318756-14062220450363.jpg" class="zhaopian"></image>食品</view>
+  </view>
+  
+  <view class="content1">
+    <view class="itme1" bindtap="XianQing" data-word-name="4"><image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=251289041,4271993987&fm=27&gp=0.jpg" class="zhaopian"></image>其他</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="5"><image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1053180260,234004908&fm=27&gp=0.jpg" class="zhaopian"></image>姓氏</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="6"><image src="http://s15.sinaimg.cn/mw690/003CQEFkgy6FEnek18ade&690" class="zhaopian"></image>衣物</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="7"><image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2993670934,2692740966&fm=27&gp=0.jpg" class="zhaopian"></image>数目</view>
+  </view>
+
+
+<view class="zhongjian">
+    <text class="wenben">国家</text>
+  </view>
+
+  <view class="content">
+   <view class="itme1" bindtap="XianQing" data-word-name="8"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527305393169&di=9ee4a4ae2cab76546a09422b0f200694&imgtype=0&src=http%3A%2F%2Fwww.wanhuajing.com%2Fpic%2F1606%2F2316%2F5443963%2F3_640_356.jpg"  class="zhaopian"></image>党政</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="9"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527305459520&di=f516148b798025f3b9439c47de7f8505&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Fface%2F433ee50513aa4bfe02baeb49f7be57c64b710347.jpg"  class="zhaopian"></image>活动</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="10"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527305542782&di=5cd683bcc3e5634680138328d3f6a96c&imgtype=0&src=http%3A%2F%2Fp.yjbys.com%2Fimage%2F20170615%2F1497517301118806.png" class="zhaopian"></image>行政管理</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="11"><image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2424214849,1450105222&fm=27&gp=0.jpg" class="zhaopian"></image>法律</view>
+  </view>
+  
+  <view class="content1">
+    <view class="itme1" bindtap="XianQing" data-word-name="12"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527305754597&di=59c27e3dc6c9a2430ef0002051586c02&imgtype=0&src=http%3A%2F%2Fimg1.youzy.cn%2Fcontent2%2Fthumbs%2Fp00364394.jpeg" class="zhaopian"></image>国防公安</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="13"><image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=769544442,3241931843&fm=27&gp=0.jpg" class="zhaopian"></image>部队</view>
+    
+  </view>
+
+
+
+<view class="zhongjian">
+    <text class="wenben">文化</text>
+  </view>
+
+  <view class="content">
+   <view class="itme1" bindtap="XianQing" data-word-name="14"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527306127744&di=e7fa1231a498332704237c23dae2f00e&imgtype=0&src=http%3A%2F%2Fpic65.nipic.com%2Ffile%2F20150503%2F19700831_122821924000_2.jpg"  class="zhaopian"></image>日用品</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="15"><image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3942141519,1756900934&fm=27&gp=0.jpg"  class="zhaopian"></image>民族</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="16"><image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2868747545,2912224081&fm=27&gp=0.jpg" class="zhaopian"></image>宗教</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="17"><image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3597405012,2368312671&fm=27&gp=0.jpg" class="zhaopian"></image>历史</view>
+  </view>
+  
+  <view class="content1">
+    <view class="itme1" bindtap="XianQing" data-word-name="18"><image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=288967462,1774061748&fm=27&gp=0.jpg" class="zhaopian"></image>哲学</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="19"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527306466442&di=e1259939b425cf5757b2257693bdac7f&imgtype=0&src=http%3A%2F%2Fimagedb.pxmsw.cn%2Fapi%2Fimage%2F81477039255_8.jpg" class="zhaopian"></image>心理</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="20"><image src="http://pic-cdn.35pic.com/58pic/19/55/95/84y58PICT58_1024.jpg" class="zhaopian"></image>时间</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="21"><image src="http://img5.imgtn.bdimg.com/it/u=244602314,830740671&fm=200&gp=0.jpg" class="zhaopian"></image>空间</view>
+    
+  </view>
+
+
+
+
+<view class="zhongjian">
+    <text class="wenben">行业</text>
+  </view>
+
+  <view class="content">
+   <view class="itme1" bindtap="XianQing" data-word-name="22"><image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1682866045,2494572587&fm=200&gp=0.jpg"  class="zhaopian"></image>财政贸易</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="23"><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527307530467&di=a784438823493fe0381af38d492da71b&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F26%2F20%2F91%2F58c7ae265b056_1024.jpg"  class="zhaopian"></image>工业建筑</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="24"><image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2783724726,3447922632&fm=27&gp=0.jpg" class="zhaopian"></image>交通邮电</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="25"><image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=723225190,2367613005&fm=27&gp=0.jpg" class="zhaopian"></image>农牧副鱼</view>
+  </view>
+  
+  <view class="content1">
+    
+  </view>
+
+
+
+
+
+<view class="zhongjian">
+    <text class="wenben">学科</text>
+  </view>
+
+  <view class="content">
+   <view class="itme1" bindtap="XianQing" data-word-name="26"><image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2293026154,2184709618&fm=27&gp=0.jpg"  class="zhaopian"></image>体育</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="27"><image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3138132445,2398952932&fm=27&gp=0.jpg"  class="zhaopian"></image>数学</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="28"><image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=460820486,3803639913&fm=27&gp=0.jpg" class="zhaopian"></image>物理</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="29"><image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2942290978,2022633401&fm=27&gp=0.jpg" class="zhaopian"></image>化学</view>
+  </view>
+  
+  <view class="content1">
+    <view class="itme1" bindtap="XianQing" data-word-name="30"><image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3829175866,2162129643&fm=200&gp=0.jpg" class="zhaopian"></image>生物</view>
+    
+  </view>
+
+
+<view class="zhongjian">
+    <text class="wenben">自然</text>
+  </view>
+
+  <view class="content">
+   <view class="itme1" bindtap="XianQing" data-word-name="31"><image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3542553040,1216211234&fm=200&gp=0.jpg"  class="zhaopian"></image>天体气象</view>
+    <view class="itme2" bindtap="XianQing" data-word-name="32"><image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2229664132,2078266967&fm=27&gp=0.jpg"  class="zhaopian"></image>地理地质</view>
+    <view class="itme3" bindtap="XianQing" data-word-name="33"><image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3861709352,4245361413&fm=27&gp=0.jpg" class="zhaopian"></image>动物</view>
+    <view class="itme4" bindtap="XianQing" data-word-name="34"><image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163128684,3900965838&fm=27&gp=0.jpg" class="zhaopian"></image>植物</view>
+  </view>
+  
+  <view class="content1">
+    <view class="itme1" bindtap="XianQing" data-word-name="35"><image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3564915091,4105139194&fm=27&gp=0.jpg" class="zhaopian"></image>矿物</view>
+    <!-- <view class="itme1" bindtap="XianQing" data-word-name="36"><image src="http://img2.imgtn.bdimg.com/it/u=1900361225,3790653871&fm=27&gp=0.jpg" class="zhaopian"></image>特性与动作</view> -->
+    
+  </view>
+</scroll-view>
+</view>

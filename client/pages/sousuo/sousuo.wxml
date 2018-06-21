@@ -1,0 +1,40 @@
+<!--pages/sousuo/sousuo.wxml-->
+
+
+<view>
+<navigator open-type='switchTab' url='/pages/firstP/firstP'>
+<image src="/images/shang.png" class="return"></image>
+</navigator>
+</view>
+
+
+
+<view calss="clr">
+<input  auto-focus class="search_frame" type="text" name="search" placeholder="字，词，句子都可翻译" placeholder-class='ziti' value="{{inputValue}}" bindinput='searchValueInput'></input>
+<button class="button_s" bindtap="sou">搜索</button>
+</view>
+
+
+<view>
+<text class="jj">搜索历史</text>
+</view>
+
+
+<view wx:if="{{Clear}}">
+ <view class='buju' wx:for="{{searchStorage}}"  wx:key="key" wx:for-item="item" > 
+ <view class="jiaonan" bindtap="lishi" data-name-history="{{item}}"><text class="wenben">{{item}}</text></view>
+ </view>
+ </view>
+
+
+
+ <view class="laji"><image class="lajitu" bindtap="clear"   src="{{ad1}}" bindtouchstart="mytap"  bindtouchend="mytab"></image></view>
+
+
+
+ 
+
+
+
+
+

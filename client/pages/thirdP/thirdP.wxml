@@ -1,0 +1,33 @@
+<!--wxml-->
+<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+
+<view wx:if="{{Isuser}}" class="head">
+
+<image class="userinfo-avatar" src="{{headimages}}" background-size="cover"></image> 
+<text class="text_k">{{userName}}</text>
+<!-- 需要使用 button 来授权登录 -->
+</view>
+<view wx:else>
+<button class="anniu" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">登录</button>
+<view wx:else>请升级微信版本</view>
+</view>
+
+
+<navigator url='/pages/opinoin/opinoin'>
+<view class="yi" bindtap="mess"><image class="yijian" src="/images/yijian.png"></image><text class="text_yijian2">意见反馈</text>
+
+
+</view>
+</navigator>
+
+
+<navigator url='/pages/about/about'>
+<view class="yi" bindtap="mess"><image class="yijian1" src="/images/guanyu.png"></image><text class="text_yijian1">关于手语</text></view>
+</navigator>
+
+
+<navigator url='/pages/about2/about2'>
+<view class="yi" bindtap="mess"><image class="yijian1" src="/images/us.png"></image><text class="text_yijian1">关于我们</text></view>
+</navigator>
+
+

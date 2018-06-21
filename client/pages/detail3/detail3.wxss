@@ -1,0 +1,27 @@
+/* pages/detail3/detail3.wxss */
+ .xiangqing{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(255,245,247);
+}
+.picture{
+  
+}
+.name{
+  font-size: 200%;
+  color: #d81e06;
+
+}
+.meaning{
+
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+} 
+
+
+
+
+

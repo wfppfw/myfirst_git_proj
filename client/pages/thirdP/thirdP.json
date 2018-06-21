@@ -1,0 +1,20 @@
+{
+  
+   
+    "navigationBarTitleText": "个人中心",
+    "openId": "OPENID",
+    "nickName": "NICKNAME",
+    "gender": "GENDER",
+    "city": "CITY",
+    "province": "PROVINCE",
+    "country": "COUNTRY",
+    "avatarUrl": "AVATARURL",
+    "unionId": "UNIONID",
+    "watermark": {
+      "appid": "APPID",
+      "timestamp":"TIMESTAMP"
+    }
+  
+  
+
+}
